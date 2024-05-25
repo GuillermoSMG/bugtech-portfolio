@@ -4,7 +4,7 @@ import { ToggleThemeBtn } from './ToggleThemeBtn';
 
 const Header = () => {
 	return (
-		<header className='flex px-6 py-4 items-center justify-between font-sans sticky top-0 border-b border-gray-50/0 dark:bg-[#030621e6]'>
+		<header className='flex px-6 py-4 items-center justify-between bg-white dark:text-mainText font-sans sticky top-0 border-b dark:border-gray-700 dark:bg-headerBg'>
 			<HeaderTitle>BUGS TECHS</HeaderTitle>
 			<Navbar />
 			<ToggleThemeBtn />

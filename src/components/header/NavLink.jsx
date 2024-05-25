@@ -5,7 +5,7 @@ const Link = ({ children, to }) => {
 		<li className='no-underline cursor-pointer'>
 			<a
 				href={`${to}`}
-				className='px-4 py-3 text-[#101010] dark:text-[#E5ECF6] font-semibold'
+				className='px-4 py-3 text-linkText hover:text-black dark:text-darkLinkText dark:hover:text-white font-semibold'
 			>
 				{children}
 			</a>
