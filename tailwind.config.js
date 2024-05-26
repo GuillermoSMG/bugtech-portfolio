@@ -15,6 +15,7 @@ export default {
 				actionText: '#6D28D9',
 				infoText: '#101010A8',
 				infoTextDark: '#CBD5E1',
+				servicesTest: '#94A3B8',
 			},
 		},
 	},

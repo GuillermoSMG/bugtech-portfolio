@@ -33,3 +33,21 @@ export const VALUES = [
 		icon: 'FastIcon',
 	},
 ];
+
+export const ADVANTAGES = [
+	{
+		title: 'Compatibilidad entre navegadores',
+		desc: 'Asegúrate de que tu sitio web se vea bien y funcione correctamente en varios navegadores web',
+		icon: 'GreenCheckIcon',
+	},
+	{
+		title: 'Alto nivel de personalización',
+		desc: 'Adaptamos nuestro producto para que coincida con la identidad y los requisitos de tu marca',
+		icon: 'GreenCheckIcon',
+	},
+	{
+		title: 'Diseño completamente adaptable',
+		desc: 'Garantiza el rendimiento óptimo de tu sitio web en varios dispositivos y tamaños de pantalla',
+		icon: 'GreenCheckIcon',
+	},
+];
