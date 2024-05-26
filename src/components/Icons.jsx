@@ -93,15 +93,15 @@ const AdIcon = () => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
-			width='24'
-			height='24'
+			width='48'
+			height='48'
 			viewBox='0 0 24 24'
 			fill='none'
 			stroke='#011bef'
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
-			className='icon icon-tabler icons-tabler-outline icon-tabler-ad'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-ad mb-6'
 		>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z' />
@@ -137,6 +137,56 @@ const PortfolioIcon = () => {
 	);
 };
 
+const CheckIcon = () => {
+	return (
+		<svg
+			xmlns='http://www.w3.org/2000/svg'
+			width='48'
+			height='48'
+			viewBox='0 0 24 24'
+			fill='none'
+			stroke='#fff'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-list-check bg-[#0140ef] rounded-full p-3'
+		>
+			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
+			<path d='M3.5 5.5l1.5 1.5l2.5 -2.5' />
+			<path d='M3.5 11.5l1.5 1.5l2.5 -2.5' />
+			<path d='M3.5 17.5l1.5 1.5l2.5 -2.5' />
+			<path d='M11 6l9 0' />
+			<path d='M11 12l9 0' />
+			<path d='M11 18l9 0' />
+		</svg>
+	);
+};
+
+const FastIcon = () => {
+	return (
+		<svg
+			xmlns='http://www.w3.org/2000/svg'
+			width='48'
+			height='48'
+			viewBox='0 0 24 24'
+			fill='none'
+			stroke='#fff'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-jetpack bg-[#0140ef] rounded-full p-3'
+		>
+			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
+			<path d='M10 6a3 3 0 1 0 -6 0v7h6v-7z' />
+			<path d='M14 13h6v-7a3 3 0 0 0 -6 0v7z' />
+			<path d='M5 16c0 2.333 .667 4 2 5c1.333 -1 2 -2.667 2 -5' />
+			<path d='M15 16c0 2.333 .667 4 2 5c1.333 -1 2 -2.667 2 -5' />
+			<path d='M10 8h4' />
+			<path d='M10 11h4' />
+		</svg>
+	);
+};
+
 export const ServiceIcon = ({ name = 'DefaultIcon' }) => {
 	return (
 		<>
@@ -144,6 +194,8 @@ export const ServiceIcon = ({ name = 'DefaultIcon' }) => {
 			{name === 'WebIcon' && <WebIcon />}
 			{name === 'AdIcon' && <AdIcon />}
 			{name === 'PortfolioIcon' && <PortfolioIcon />}
+			{name === 'CheckIcon' && <CheckIcon />}
+			{name === 'FastIcon' && <FastIcon />}
 			{name === 'DefaultIcon' && <DefaultIcon />}
 		</>
 	);

@@ -9,7 +9,7 @@ function App() {
 	return (
 		<Suspense fallback={<>Loading...</>}>
 			<ThemeContextConteiner>
-				<main className='bg-mainBg dark:bg-darkBg'>
+				<main className='bg-mainBg dark:bg-darkBg relative'>
 					<div className='min-h-[100vh] flex flex-col justify-between'>
 						<Header />
 						<Home />
