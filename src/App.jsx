@@ -10,7 +10,7 @@ function App() {
 		<Suspense fallback={<>Loading...</>}>
 			<ThemeContextConteiner>
 				<main className='bg-mainBg dark:bg-darkBg relative'>
-					<div className='min-h-[100vh] flex flex-col justify-between'>
+					<div className='min-h-[70vh] md:min-h-auto flex flex-col justify-between'>
 						<Header />
 						<Home />
 						<Banner />
