@@ -6,10 +6,12 @@ export default {
 			colors: {
 				darkBg: '#030620',
 				mainBg: '#fff',
-				headerBg: '#030620fa',
+				headerBg: '#030620e6',
 				mainText: '#e5e7eb',
 				linkText: '#101010',
 				darkLinkText: '#E5ECF6',
+				muted: '#E5ECF6A8',
+				mutedLight: '#101010A8',
 				actionText: '#6D28D9',
 				infoText: '#101010A8',
 				infoTextDark: '#CBD5E1',

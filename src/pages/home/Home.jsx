@@ -1,4 +1,6 @@
 import React from 'react';
+import { HomeTitle } from './components/HomeTitle';
+import { HomeTitleSpan } from './components/HomeTitleSpan';
 
 const Home = () => {
 	return (
@@ -7,22 +9,24 @@ const Home = () => {
 			id='home'
 		>
 			<div className='mx-auto text-center pb-10'>
-				<h1 className=' text-5xl md:text-6xl font-bold'>
-					<p className='mb-9 tracking-tighter'>
-						<span className='dark:text-mainText text-linkText'>
-							Creación de software altamente{' '}
-						</span>
-						<span className='dark:text-white text-actionText'>
-							personalizado
-						</span>
-					</p>
-				</h1>
+				<HomeTitle
+					text={[
+						{
+							content: 'Creación de software altamente ',
+							style: 'dark:text-mainText text-linkText',
+						},
+						{
+							content: 'personalizado',
+							style: 'dark:text-white text-actionText',
+						},
+					]}
+				/>
 				<div className='mx-auto'>
 					<p className='text-infoText dark:text-infoTextDark text-xl md:max-w-[75%] mx-auto'>
-						En <span className='font-semibold'>Bug Technologies</span> creamos
-						software bajo demanda adecuado para startups y pequeñas empresas. A
-						su vez también creamos ecommerce, landing pages, portfolios
-						profesionales y sitios web de marketing.
+						En <HomeTitleSpan text='Bugs Technologies ' style='font-semibold' />
+						creamos software bajo demanda adecuado para startups y pequeñas
+						empresas. A su vez también creamos ecommerce, landing pages,
+						portfolios profesionales y sitios web de marketing.
 					</p>
 				</div>
 			</div>
