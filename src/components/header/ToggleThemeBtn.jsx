@@ -9,7 +9,7 @@ export const ToggleThemeBtn = () => {
 			onClick={handleTheme}
 			className='p-2 dark:hover:bg-gray-700 hover:bg-gray-100 rounded-lg'
 		>
-			{theme === "dark" ?  <ThemeIconDark/>: <ThemeIcon/> }
+			{theme === "dark" ?  <ThemeIcon/> :<ThemeIconDark/>} 
 		</button>
 	);
 };
