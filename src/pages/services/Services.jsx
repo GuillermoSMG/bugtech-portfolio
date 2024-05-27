@@ -52,7 +52,7 @@ export const Services = () => {
 				</p>
 				<p className='text-black dark:text-white md:w-[70%] text-center'>
 					También ofrecemos una gama completa de servicios web personalizados. ¡
-					<a href='#contact' className='text-blue-950'>
+					<a href='#contact' className='text-blue-950 dark:text-blue-500'>
 						Contáctanos
 					</a>{' '}
 					hoy mismo y obtén un presupuesto a medida para tus necesidades!
