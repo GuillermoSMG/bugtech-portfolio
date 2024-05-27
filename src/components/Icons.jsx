@@ -6,7 +6,8 @@ export const ThemeIcon = () => {
 		<img
 			src='https://i.ibb.co/ZWmbGbj/etmfdr.gif'
 			className='h-8 rounded-xl w-[55px]'
-			alt=''
+			alt='Set dark mode'
+			data-testid='light-icon'
 		/>
 	);
 };
@@ -15,7 +16,8 @@ export const ThemeIconDark = () => {
 		<img
 			src='https://i.pinimg.com/originals/94/ff/74/94ff7463a1574221ba6d4ada2c997e0b.gif'
 			className='h-8 rounded-xl w-[55px]'
-			alt=''
+			alt='Set light mode'
+			data-testid='dark-icon'
 		/>
 	);
 };

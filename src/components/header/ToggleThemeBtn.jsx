@@ -8,8 +8,10 @@ export const ToggleThemeBtn = () => {
 		<button
 			onClick={handleTheme}
 			className='p-2 dark:hover:bg-gray-700 hover:bg-gray-100 rounded-lg'
+			// eslint-disable-next-line react/no-unknown-property
+			data-testid='toggle-theme-button'
 		>
-			{theme === "dark" ?  <ThemeIcon/> :<ThemeIconDark/>} 
+			{theme === 'dark' ? <ThemeIcon /> : <ThemeIconDark />}
 		</button>
 	);
 };

@@ -10,4 +10,10 @@ export default defineConfig({
 			'@icons': path.resolve(__dirname, 'src/components/Icons.jsx'),
 		},
 	},
+	test: {
+		globals: true,
+		environment: 'jsdom',
+		setupFiles: './src/scripts/setupTest.js',
+		css: true,
+	},
 });
