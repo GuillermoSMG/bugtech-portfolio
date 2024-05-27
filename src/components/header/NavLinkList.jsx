@@ -4,7 +4,7 @@ import Link from './NavLink';
 const LinkList = () => {
 	return (
 		<>
-			<ul className='flex'>
+			<ul className='flex justify-center'>
 				{LINKS.map(link => (
 					<Link key={link.label} to={link.to}>
 						{link.label}

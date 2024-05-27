@@ -1,3 +1,6 @@
+import { useContext } from 'react';
+import { themeContext } from './ThemeContext';
+
 export const ThemeIcon = () => {
 	return (
 		<svg
@@ -173,6 +176,7 @@ const FlatCheckIcon = () => {
 			stroke='#ffffff'
 			strokeWidth='0.00024000000000000003'
 			transform='matrix(1, 0, 0, 1, 0, 0)rotate(0)'
+			className='mb-6'
 		>
 			<g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
 			<g
@@ -202,7 +206,7 @@ const ContactIcon = () => {
 			width='48px'
 			height='48px'
 			viewBox='0 0 1024 1024'
-			className='icon'
+			className='icon mb-6'
 			version='1.1'
 			xmlns='http://www.w3.org/2000/svg'
 			fill='#000000'
@@ -277,6 +281,7 @@ const GreenCheckIcon = () => {
 };
 
 export const MoneyIcon = () => {
+	const { theme } = useContext(themeContext);
 	return (
 		<svg
 			width='44px'
@@ -302,7 +307,7 @@ export const MoneyIcon = () => {
 				></circle>{' '}
 				<path
 					d='M570.9 482.6h-29.4V364.8h58.9c16.3 0 29.4 13.2 29.4 29.4s13.2 29.4 29.4 29.4c16.3 0 29.4-13.2 29.4-29.4 0-48.8-39.5-88.3-88.3-88.3h-58.9V247c0-16.3-13.2-29.4-29.4-29.4-16.3 0-29.4 13.2-29.4 29.4v59h-29.4c-65 0-117.7 52.7-117.7 117.7s52.7 117.7 117.7 117.7h29.4v117.7h-58.9c-16.3 0-29.4-13.2-29.4-29.4 0-16.3-13.2-29.4-29.4-29.4s-29.4 13.2-29.4 29.4c0 48.8 39.5 88.3 88.3 88.3h58.9v58.9c0 16.3 13.2 29.4 29.4 29.4 16.3 0 29.4-13.2 29.4-29.4V718h29.4c65 0 117.7-52.7 117.7-117.7s-52.7-117.7-117.7-117.7zm-88.3 0h-29.4c-32.5 0-58.9-26.4-58.9-58.9s26.4-58.9 58.9-58.9h29.4v117.8zm88.3 176.6h-29.4V541.4h29.4c32.5 0 58.9 26.4 58.9 58.9-.1 32.5-26.4 58.9-58.9 58.9z'
-					style={{ fill: 'rgb(15 23 42)' }}
+					style={{ fill: theme === 'dark' ? 'rgb(15 23 42)' : '#fff' }}
 				></path>{' '}
 			</g>
 		</svg>

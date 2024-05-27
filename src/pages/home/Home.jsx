@@ -5,7 +5,7 @@ import { HomeTitleSpan } from './components/HomeTitleSpan';
 const Home = () => {
 	return (
 		<section
-			className='mt-44 px-4 md:px-6 w-full md:w-[75vw] mx-auto mb-6 pb-12'
+			className='pt-32 lg:pt-36 px-4 md:px-6 w-full md:w-[75vw] mx-auto mb-6 pb-12'
 			id='home'
 		>
 			<div className='mx-auto text-center pb-10'>
