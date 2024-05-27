@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import { Services } from './pages/services/Services';
 import Navbar from './components/header/Navbar';
+import { Team } from './pages/team/Team';
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 					<Navbar styles='sticky bottom-0 md:hidden bg-mainBg dark:bg-headerBg py-5 px-4 backdrop-blur-md' />
 				</main>
 			</ThemeContextConteiner>
+			<Team />
 		</Suspense>
 	);
 }
