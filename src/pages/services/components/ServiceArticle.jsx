@@ -27,7 +27,7 @@ export const ServiceArticle = ({ title, desc, icon, isContact = false }) => {
 								{title}
 							</h3>
 							<p className='mt-2 text-mutedLight dark:text-muted'>
-								{desc === 'Instagram' ? `@${desc}` : <>{desc}</>}
+								{title === 'Instagram' ? `@${desc}` : <>{desc}</>}
 							</p>
 						</div>
 					</article>
