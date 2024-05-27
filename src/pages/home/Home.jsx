@@ -24,12 +24,12 @@ const Home = () => {
 				<div className='mx-auto'>
 					<p
 						data-testid='homeSubtitle'
-						className='text-infoText dark:text-infoTextDark text-xl md:max-w-[75%] md:text-[25px] mx-auto'
+						className='text-infoText dark:text-infoTextDark text-xl md:max-w-[75%] md:text-[23px] mx-auto'
 					>
 						En <HomeTitleSpan text='Bugs Technologies ' style='font-semibold' />
-						creamos software bajo demanda adecuado para startups y pequeñas
-						empresas. A su vez también creamos ecommerce, landing pages,
-						portfolios profesionales y sitios web de marketing.
+						creamos software bajo demanda adecuado para startups, particulares y
+						pequeñas empresas. Creamos ecommerce, landing pages, portfolios
+						profesionales y sitios web de marketing.
 					</p>
 				</div>
 			</div>

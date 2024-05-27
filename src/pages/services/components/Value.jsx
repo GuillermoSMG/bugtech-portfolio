@@ -3,7 +3,7 @@ import { ServiceIcon } from '@icons';
 
 export const Value = ({ title, desc, icon }) => {
 	return (
-		<article className='flex'>
+		<article className='flex basis-1/2'>
 			<div className='mr-4'>
 				<ServiceIcon name={icon} />
 			</div>

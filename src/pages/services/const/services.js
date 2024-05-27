@@ -34,6 +34,19 @@ export const VALUES = [
 	},
 ];
 
+export const VALUES_TWO = [
+	{
+		title: 'Optimización de motores de búsqueda(SEO)',
+		desc: 'Altos estandares y preparada para pocisionarse en buscadores como Google.',
+		icon: 'SEOIcon',
+	},
+	{
+		title: 'Adaptado para todos los dispositivos',
+		desc: 'Diseños adaptados para vista Mobile, Desktop y tablets.',
+		icon: 'MobileIcon',
+	},
+];
+
 export const ADVANTAGES = [
 	{
 		title: 'Compatibilidad entre navegadores',
@@ -52,6 +65,24 @@ export const ADVANTAGES = [
 	},
 ];
 
+export const ADVANTAGES_TWO = [
+	{
+		title: 'Completa disponibilidad de tu sitio web',
+		desc: 'Un sitio web abre tu nogocio 24/7 los 365 días del año teniendo así la máxima disponibilidad para tus clientes',
+		icon: 'GreenCheckIcon',
+	},
+	{
+		title: 'Soporte y mantenimiento 24/7',
+		desc: 'Estaremos siempre atentos a cualquier error o cambio que quiera realizar',
+		icon: 'GreenCheckIcon',
+	},
+	{
+		title: 'Visualización en redes sociales',
+		desc: 'Pondremos tus perfiles de redes sociales en la web para que tus clientes puedan seguirte',
+		icon: 'GreenCheckIcon',
+	},
+];
+
 export const CHARACTERISTICS = [
 	{
 		title: 'Características',
@@ -60,12 +91,12 @@ export const CHARACTERISTICS = [
 	},
 	{
 		title: 'Precio',
-		desc: 'Contacta con nosotros para realizar un presupuesto sin compromiso.',
+		desc: 'Costos a partir de USD$150. Contacta con nosotros para realizar un presupuesto sin compromiso.',
 		icon: 'MoneyIcon',
 	},
 	{
 		title: 'Contacto',
-		desc: 'Puedes enviarnos un email a bugstechnologys@gmail.com o enviarnos un mensaje a +598 95729176',
+		desc: `Puedes enviarnos un email a bugstechnologys@gmail.com o enviarnos un mensaje a +598 95729176`,
 		icon: 'ContactIcon',
 	},
 ];
