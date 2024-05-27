@@ -4,7 +4,7 @@ export const getLink = ({ title, desc }) => {
 		link = `https://wa.me/${desc.replaceAll(' ', '')}`;
 	}
 	if (title === 'Email') {
-		link = `mailto:${desc}`;
+		link = `mailto:${desc}?subject=Desarrollo%20Web`;
 	}
 	if (title === 'Instagram') {
 		link = `https://www.instagram.com/${desc}/`;
