@@ -28,7 +28,7 @@ const WebIcon = () => {
 			height='48'
 			viewBox='0 0 24 24'
 			fill='none'
-			stroke='#011bef'
+			stroke='#0161ef'
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
@@ -56,7 +56,7 @@ const LandingIcon = () => {
 			height='48'
 			viewBox='0 0 24 24'
 			fill='none'
-			stroke='#011bef'
+			stroke='#0161ef'
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
@@ -76,7 +76,7 @@ const DefaultIcon = () => {
 			height='48'
 			viewBox='0 0 24 24'
 			fill='none'
-			stroke='#011bef'
+			stroke='#0161ef'
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
@@ -98,7 +98,7 @@ const AdIcon = () => {
 			height='48'
 			viewBox='0 0 24 24'
 			fill='none'
-			stroke='#011bef'
+			stroke='#0161ef'
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
@@ -121,7 +121,7 @@ const PortfolioIcon = () => {
 			height='48'
 			viewBox='0 0 24 24'
 			fill='none'
-			stroke='#011bef'
+			stroke='#0161ef'
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
@@ -150,7 +150,7 @@ const CheckIcon = () => {
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
-			className='icon icon-tabler icons-tabler-outline icon-tabler-list-check bg-[#0140ef] rounded-full p-3'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-list-check bg-[#0161ef] rounded-full p-3'
 		>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M3.5 5.5l1.5 1.5l2.5 -2.5' />
@@ -245,7 +245,7 @@ const FastIcon = () => {
 			strokeWidth='2'
 			strokeLinecap='round'
 			strokeLinejoin='round'
-			className='icon icon-tabler icons-tabler-outline icon-tabler-jetpack bg-[#0140ef] rounded-full p-3'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-jetpack bg-[#0161ef] rounded-full p-3'
 		>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M10 6a3 3 0 1 0 -6 0v7h6v-7z' />
@@ -312,6 +312,71 @@ export const MoneyIcon = () => {
 	);
 };
 
+export const PhoneIcon = () => {
+	return (
+		<svg
+			xmlns='http://www.w3.org/2000/svg'
+			width='48'
+			height='48'
+			viewBox='0 0 24 24'
+			fill='none'
+			stroke='#0161ef'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-device-mobile-message mb-6'
+		>
+			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
+			<path d='M11 3h10v8h-3l-4 2v-2h-3z' />
+			<path d='M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2' />
+			<path d='M10 18v.01' />
+		</svg>
+	);
+};
+
+export const EmailIcon = () => {
+	return (
+		<svg
+			xmlns='http://www.w3.org/2000/svg'
+			width='48'
+			height='48'
+			viewBox='0 0 24 24'
+			fill='none'
+			stroke='#0161ef'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-mail mb-6'
+		>
+			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
+			<path d='M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z' />
+			<path d='M3 7l9 6l9 -6' />
+		</svg>
+	);
+};
+
+export const InstagramIcon = () => {
+	return (
+		<svg
+			xmlns='http://www.w3.org/2000/svg'
+			width='48'
+			height='48'
+			viewBox='0 0 24 24'
+			fill='none'
+			stroke='#0161ef'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
+			className='icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram mb-6'
+		>
+			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
+			<path d='M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z' />
+			<path d='M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0' />
+			<path d='M16.5 7.5l0 .01' />
+		</svg>
+	);
+};
+
 export const ServiceIcon = ({ name = 'DefaultIcon' }) => {
 	return (
 		<>
@@ -325,6 +390,9 @@ export const ServiceIcon = ({ name = 'DefaultIcon' }) => {
 			{name === 'FlatCheckIcon' && <FlatCheckIcon />}
 			{name === 'ContactIcon' && <ContactIcon />}
 			{name === 'MoneyIcon' && <MoneyIcon />}
+			{name === 'PhoneIcon' && <PhoneIcon />}
+			{name === 'EmailIcon' && <EmailIcon />}
+			{name === 'InstagramIcon' && <InstagramIcon />}
 			{name === 'DefaultIcon' && <DefaultIcon />}
 		</>
 	);
