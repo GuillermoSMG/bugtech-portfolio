@@ -51,3 +51,21 @@ export const ADVANTAGES = [
 		icon: 'GreenCheckIcon',
 	},
 ];
+
+export const CHARACTERISTICS = [
+	{
+		title: 'Características',
+		desc: 'Utilizamos las mejores tecnologías del mercado',
+		icon: 'FlatCheckIcon',
+	},
+	{
+		title: 'Precio',
+		desc: 'Contacta con nosotros para realizar un presupuesto sin compromiso.',
+		icon: 'MoneyIcon',
+	},
+	{
+		title: 'Contacto',
+		desc: 'Puedes enviarnos un mail a mail@mail.com o enviarnos un mensaje a +598 95729176',
+		icon: 'ContactIcon',
+	},
+];
