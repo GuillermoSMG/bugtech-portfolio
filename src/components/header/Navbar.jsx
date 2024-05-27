@@ -1,9 +1,9 @@
 import React from 'react';
 import LinkList from './NavLinkList';
 
-const Navbar = () => {
+const Navbar = ({ styles }) => {
 	return (
-		<nav className='hidden md:flex'>
+		<nav className={styles}>
 			<LinkList />
 		</nav>
 	);

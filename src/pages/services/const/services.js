@@ -65,7 +65,7 @@ export const CHARACTERISTICS = [
 	},
 	{
 		title: 'Contacto',
-		desc: 'Puedes enviarnos un mail a mail@mail.com o enviarnos un mensaje a +598 95729176',
+		desc: 'Puedes enviarnos un email a bugstechnologys@gmail.com o enviarnos un mensaje a +598 95729176',
 		icon: 'ContactIcon',
 	},
 ];

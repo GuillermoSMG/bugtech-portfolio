@@ -19,16 +19,18 @@ export const Advantages = () => {
 					/>
 				))}
 			</div>
-			<img
-				alt='Servicios'
-				className='mx-auto w-full h-auto aspect-[1.125] bg-gray-500 rounded-lg shadow-lg object-cover object-center md:mt-0 mt-10 md:basis-1/2 text-muted'
-				crossOrigin='anonymous'
-				decoding='async'
-				height='40'
-				loading='lazy'
-				referrerPolicy='no-referrer'
-				src=''
-			/>
+			<div className='basis-1/2'>
+				<img
+					alt='Servicios'
+					className='mx-auto w-full h-auto aspect-[1.125] bg-gray-500 rounded-lg shadow-lg object-cover object-center md:mt-0 mt-10 md:basis-1/2 text-muted'
+					crossOrigin='anonymous'
+					decoding='async'
+					height='40'
+					loading='lazy'
+					referrerPolicy='no-referrer'
+					src='/services2.webp'
+				/>
+			</div>
 		</div>
 	);
 };
