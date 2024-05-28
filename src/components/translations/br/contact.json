@@ -1,5 +1,25 @@
 {
-	"header": {
-		"hello-world": "helloWorld"
-	}
+	"contact": [
+	  {
+		"title": "Telefone",
+		"desc": "+598 95 729 176",
+		"icon": "PhoneIcon"
+	  },
+	  {
+		"title": "E-mail",
+		"desc": "bugstechnologys@gmail.com",
+		"icon": "EmailIcon"
+	  },
+	  {
+		"title": "Instagram",
+		"desc": "bugstechnologies",
+		"icon": "InstagramIcon"
+	  }
+	],
+
+		"title": "Entre em Contato!",
+		"slogan": "Estamos aqui para te ajudar"
 }
+	  
+  
+  
