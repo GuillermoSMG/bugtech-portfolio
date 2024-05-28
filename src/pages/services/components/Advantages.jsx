@@ -1,16 +1,19 @@
 import React from 'react';
 import { AdvantagesTitle } from './AdvantagesTitle';
-import { ADVANTAGES } from '../const/services';
 import { Advantage } from './Advantage';
 
-export const Advantages = () => {
+export const Advantages = ({ order = '', advanteges, isFirst }) => {
 	return (
 		<div className='p-10 md:flex md:gap-16'>
-			<div className='md:order-last md:basis-1/2 mx-auto gap-8 grid gap-y-4 md:gap-y-8'>
-				<AdvantagesTitle styles='font-bold dark:text-white sm:text-3xl tracking-tight text-lg mb-8'>
+			<div
+				className={`${order} md:basis-1/2 mx-auto gap-8 grid gap-y-4 md:gap-y-8`}
+			>
+				<AdvantagesTitle
+					styles={`font-bold dark:text-white sm:text-3xl tracking-tight text-lg mb-8 ${!isFirst && 'invisible'}`}
+				>
 					Ventajas de nuestros servicios
 				</AdvantagesTitle>
-				{ADVANTAGES.map((adv, i) => (
+				{advanteges?.map((adv, i) => (
 					<Advantage
 						key={i}
 						title={adv.title}
