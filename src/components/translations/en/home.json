@@ -1,5 +1,19 @@
 {
-	"header": {
-		"hello-world": "helloWorld"
-	}
-}
+	"home-title": [
+	  {
+		"text-title": "Highly customized"
+	  },
+	  {
+		"text-title": " software creation"
+	  }
+	],
+	"home-descrip": [
+		{
+			"descrip": "At"
+		},
+	  {
+		"descrip": ", we create on-demand software suitable for startups, individuals, and small businesses. We build e-commerce platforms, landing pages, professional portfolios, and marketing websites."
+	  }
+	],
+	"company-name": "Bugs Technologies "
+  }
