@@ -8,7 +8,7 @@ export const Team = () => {
 			className='text-center px-4 pt-24 pb-12 md:px-6 dark:bg-darkBg '
 			id='team'
 		>
-			<h2 className='dark:text-white text-linkText text-4xl md:text-6xl font-semibold tracking-tighter md:tracking-normal md:mb-2 mb-5'>
+			<h2 className='dark:text-white text-linkText text-4xl md:text-6xl font-semibold tracking-tighter md:tracking-normal md:mb-8 mb-5'>
 				¡Nuestro equipo!
 			</h2>
 			<div className='md:flex md:justify-center'>

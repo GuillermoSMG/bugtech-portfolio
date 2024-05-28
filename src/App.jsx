@@ -9,7 +9,6 @@ import Navbar from './components/header/Navbar';
 import { Team } from './pages/team/Team';
 import { Contact } from './pages/contact/Contact';
 
-
 function App() {
 	return (
 		<Suspense fallback={<>Loading...</>}>
@@ -21,11 +20,11 @@ function App() {
 						<Banner />
 					</div>
 					<Services />
+					<Team />
 					<Contact />
 					<Navbar styles='sticky bottom-0 md:hidden bg-mainBg dark:bg-headerBg py-5 px-4 backdrop-blur-md' />
 				</main>
 			</ThemeContextConteiner>
-			<Team />
 		</Suspense>
 	);
 }
