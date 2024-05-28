@@ -8,6 +8,7 @@ export const MembersCard = ({ title, desc, img, linkedin, whatsapp }) => {
 				<p>{desc}</p>
 				<div className='flex justify-center w-21 h-21 mt-4'>
 					<a
+						className='mr-9'
 						href={whatsapp}
 						target='_blank'
 						rel='noreferrer'
@@ -16,6 +17,7 @@ export const MembersCard = ({ title, desc, img, linkedin, whatsapp }) => {
 						<WhatsappIcon />
 					</a>
 					<a
+						className='ml-9'
 						href={linkedin}
 						target='_blank'
 						rel='noreferrer'
