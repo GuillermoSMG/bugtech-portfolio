@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
@@ -34,15 +35,15 @@ i18next.init({
 			contact: contact_es,
 			team: team_es,
 			services: services_es,
-		  },
-		  en: {
+		},
+		en: {
 			header: header_en,
 			banner: banner_en,
 			home: home_en,
 			contact: contact_en,
 			team: team_en,
 			services: services_en,
-		  },
+		},
 		br: {
 			header: header_br,
 			banner: banner_br,
