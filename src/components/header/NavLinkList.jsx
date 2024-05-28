@@ -3,7 +3,7 @@ import Link from './NavLink';
 import { useTranslation } from 'react-i18next';
 
 const LinkList = () => {
-	const { t } = useTranslation('NavLinkList');
+	const { t } = useTranslation('navlist');
 	const links = t('links', { returnObjects: true });
 	return (
 	  <>

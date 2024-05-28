@@ -23,12 +23,15 @@ import services_br from './components/translations/br/services.json';
 import banner_es from './components/translations/es/banner.json';
 import banner_en from './components/translations/en/banner.json';
 import banner_br from './components/translations/br/banner.json';
-
+import navlist_es from './components/translations/es/navlist.json';
+import navlist_en from './components/translations/en/navlist.json';
+import navlist_br from './components/translations/br/navlist.json';
 i18next.init({
 	interpolation: { escapeValue: false },
 	lng: 'es',
 	resources: {
 		es: {
+			navlist: navlist_es,
 			header: header_es,
 			banner: banner_es,
 			home: home_es,
@@ -37,6 +40,7 @@ i18next.init({
 			services: services_es,
 		},
 		en: {
+			navlist: navlist_en,
 			header: header_en,
 			banner: banner_en,
 			home: home_en,
@@ -45,6 +49,7 @@ i18next.init({
 			services: services_en,
 		},
 		br: {
+			navlist: navlist_br,
 			header: header_br,
 			banner: banner_br,
 			home: home_br,
