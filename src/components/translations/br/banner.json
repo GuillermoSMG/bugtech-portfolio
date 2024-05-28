@@ -1,20 +1,5 @@
 {
-	"links": [
-		{
-			"label": "Início",
-			"to": "#home"
-		},
-		{
-			"label": "Serviços",
-			"to": "#services"
-		},
-		{
-			"label": "Equipe",
-			"to": "#team"
-		},
-		{
-			"label": "Contato",
-			"to": "#contact"
-		}
-	]
+	"banner": {
+		"texto-banner": "Simplicidade, melhores práticas e alto desempenho"
+	}
 }

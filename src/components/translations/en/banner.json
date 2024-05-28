@@ -1,20 +1,5 @@
 {
-	"links": [
-		{
-			"label": "Home",
-			"to": "#home"
-		},
-		{
-			"label": "Services",
-			"to": "#services"
-		},
-		{
-			"label": "Team",
-			"to": "#team"
-		},
-		{
-			"label": "Contact",
-			"to": "#contact"
-		}
-	]
+	"banner": {
+		"texto-banner": "Simplicity, best practices, and high performance"
+	}
 }

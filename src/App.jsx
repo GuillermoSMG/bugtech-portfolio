@@ -10,7 +10,7 @@ import { Contact } from './pages/contact/Contact';
 import { useTranslation } from 'react-i18next';
 
 function App() {
-	const [t, i18n] = useTranslation('banner');
+	const [i18n] = useTranslation('banner');
 	return (
 		<>
 			<Suspense fallback={<>Loading...</>}>
@@ -29,7 +29,6 @@ function App() {
 				</ThemeContextConteiner>
 			</Suspense>
 			<button onClick={() => i18n.changeLanguage('es')}>es</button>
-			<h1>{t('links.0.label')}</h1>
 			<button onClick={() => i18n.changeLanguage('en')}>en</button>
 			<button onClick={() => i18n.changeLanguage('br')}>br</button>
 		</>
