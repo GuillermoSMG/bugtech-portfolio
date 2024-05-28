@@ -11,13 +11,15 @@ export const Team = () => {
 			<h2 className='dark:text-white text-linkText text-4xl md:text-6xl font-semibold tracking-tighter md:tracking-normal md:mb-2 mb-5'>
 				¡Nuestro equipo!
 			</h2>
-			<div className=' grid lg:grid-cols-3 sm:grid-cols-2 gap-4 md:gap-6 sm:gap-y-8 '>
+			<div className='md:flex md:justify-center'>
 				{TEAM.map((member, i) => (
 					<MembersCard
 						key={i}
 						title={member.title}
 						desc={member.desc}
 						img={member.img}
+						whatsapp={member.whatsapp}
+						linkedin={member.linkedin}
 					/>
 				))}
 			</div>
