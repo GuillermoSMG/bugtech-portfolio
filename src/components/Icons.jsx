@@ -258,7 +258,7 @@ const FastIcon = () => {
 	);
 };
 
-const WhatsappIcon = () => {
+export const WhatsappIcon = () => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
@@ -294,7 +294,7 @@ const WhatsappIcon = () => {
 	);
 };
 
-const WhatsappIconAnimated = () => {
+export const WhatsappIconAnimated = () => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
@@ -330,7 +330,7 @@ const WhatsappIconAnimated = () => {
 	);
 };
 
-const LinkedinIcon = () => {
+export const LinkedinIcon = () => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
