@@ -5,13 +5,12 @@ import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import { Services } from './pages/services/Services';
 import Navbar from './components/header/Navbar';
-
 import { Team } from './pages/team/Team';
 import { Contact } from './pages/contact/Contact';
 import { useTranslation } from 'react-i18next';
 
 function App() {
-	const [t, i18n] = useTranslation('global');
+	const [t, i18n] = useTranslation('banner');
 	return (
 		<>
 			<Suspense fallback={<>Loading...</>}>
@@ -29,7 +28,7 @@ function App() {
 					</main>
 				</ThemeContextConteiner>
 			</Suspense>
-			<h1>{t('header.hello-world')}</h1>
+			<h1>{t('links.label')}</h1>
 			<button onClick={() => i18n.changeLanguage('es')}>es</button>
 			<button onClick={() => i18n.changeLanguage('en')}>en</button>
 			<button onClick={() => i18n.changeLanguage('br')}>br</button>
