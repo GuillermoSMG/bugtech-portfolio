@@ -28,8 +28,8 @@ function App() {
 					</main>
 				</ThemeContextConteiner>
 			</Suspense>
-			<h1>{t('links.label')}</h1>
 			<button onClick={() => i18n.changeLanguage('es')}>es</button>
+			<h1>{t('links.0.label')}</h1>
 			<button onClick={() => i18n.changeLanguage('en')}>en</button>
 			<button onClick={() => i18n.changeLanguage('br')}>br</button>
 		</>
