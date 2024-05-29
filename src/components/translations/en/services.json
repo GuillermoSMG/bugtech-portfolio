@@ -1,4 +1,30 @@
 {
+	"text-section": [
+		{
+			"title": "Boost your business with a professional Landing Page!",
+			"body-text": "Investing",
+			"body-text1": "only USD$150",
+			"body-text2": "spectacular Landing Page",
+			"body-text3": "that includes:",
+			"body-text4": "we deliver you a",
+			"home": "Home Page:",
+			"home-body":"The first impression counts, and we will make it unforgettable.",
+			"contact": "Contact Page:",
+			"contact-body": "Make it easy for your customers to find and communicate with you.",
+			"about-me": "'Who are we?' Section",
+			"about-body": "Tell your story and connect with your audience.",
+			"galery": "Image Gallery:",
+			"galery-body": "Showcase your products or services in the best way.",
+			"social-media": "Links to your social networks:",
+			"media-body": "Integrate all your platforms and increase your visibility.",
+			"extra" : "We also offer a full range of customized web services. ",
+			"link" : "Contact us",
+			"extra1": "today and get a quote tailored to your needs!",
+			"extra2" : "Your online success starts here. Don't miss the opportunity to stand out!",
+			"extra3": "But that's not all!"
+		}
+	],
+	
 	"services": [
 	  {
 		"title": "Landing pages",

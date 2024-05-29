@@ -15,9 +15,9 @@ export const Team = () => {
 				¡Nuestro equipo!
 			</h2>
 			<div className='md:flex md:justify-center'>
-				{team.map((member, i) => (
+				{team.map((member) => (
 					<MembersCard
-						key={i}
+						key={member.title}
 						title={member.title}
 						desc={member.desc}
 						img={member.img}

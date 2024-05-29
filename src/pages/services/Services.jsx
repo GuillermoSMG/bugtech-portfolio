@@ -17,51 +17,50 @@ const [t] = useTranslation("services")
 		<section>
 			<div className='pt-16 flex justify-center flex-col items-center text-left m-auto px-4 md:pl-0 '>
 				<h3 className='text-black dark:text-white text-xl md:text-2xl font-semibold'>
-					🚀 ¡Impulsa tu negocio con una Landing Page profesional!
+					🚀 {t("text-section.0.title")}
 				</h3>
 				<p className=' text-black dark:text-white text-balance'>
-					✨ Invirtiendo <span className='font-medium'>solo USD$150</span>, te
-					entregamos una{' '}
-					<span className='font-medium'>Landing Page espectacular</span> que
-					incluye:
+					✨ {t("text-section.0.body-text")} <span className='font-medium'>{t("text-section.0.body-text1")}</span>, 
+					{t("text-section.0.body-text4")}{' '}
+					<span className='font-medium'>{t("text-section.0.body-text2")}</span>
+					 {t("text-section.0.body-text3")}
 				</p>
 				<ul className='text-left py-8 flex flex-col gap-3 text-black dark:text-white md:w-[45%]'>
 					<li>
-						<span className='font-bold'>🏠 Página de Inicio:</span> La primera
-						impresión cuenta, y haremos que sea inolvidable.
+						<span className='font-bold'>🏠  {t("text-section.0.home")}</span>
+						 {t("text-section.0.home-body")}
 					</li>
 					<li>
-						<span className='font-bold'>📞 Página de Contacto:</span> Facilita
-						que tus clientes te encuentren y se comuniquen contigo.
+						<span className='font-bold'>📞  {t("text-section.0.contact")}</span> 
+						 {t("text-section.0.contact-body")}
 					</li>
 					<li>
 						<span className='font-bold'>
-							👥 Sección &apos;¿Quiénes somos?&apos;:
+							👥  {t("text-section.0.about-me")}
 						</span>{' '}
-						Cuenta tu historia y conecta con tu audiencia.
+						{t("text-section.0.about-body")}
 					</li>
 					<li>
-						<span className='font-bold'>📸 Galería de Imágenes:</span> Muestra
-						tus productos o servicios de la mejor manera.
+						<span className='font-bold'>📸  {t("text-section.0.galery")}</span> 
+						{t("text-section.0.galery-body")}
 					</li>
 					<li>
-						<span className='font-bold'>🔗 Enlaces a tus redes sociales:</span>{' '}
-						Integra todas tus plataformas y aumenta tu visibilidad.
+						<span className='font-bold'>🔗  {t("text-section.0.social-media")}</span>{' '}
+						{t("text-section.0.media-body")}
 					</li>
 				</ul>
 				<p className='text-black dark:text-white text-balance font-semibold text-[18px]'>
-					🚀 ¡Pero eso no es todo!
+					🚀 {t("text-section.0.extra3")}
 				</p>
 				<p className='text-black dark:text-white md:w-[70%] text-center'>
-					También ofrecemos una gama completa de servicios web personalizados. ¡
+				{t("text-section.0.extra")}
 					<a href='#contact' className='text-blue-950 dark:text-blue-500'>
-						Contáctanos
+					{t("text-section.0.link")}
 					</a>{' '}
-					hoy mismo y obtén un presupuesto a medida para tus necesidades!
+					{t("text-section.0.extra1")}
 				</p>
 				<p className='text-black dark:text-white text-center font-semibold text-[18px]'>
-					🌐 Tu éxito en línea empieza aquí. ¡No pierdas la oportunidad de
-					destacar!
+					🌐 	{t("text-section.0.extra2")}
 				</p>
 			</div>
 

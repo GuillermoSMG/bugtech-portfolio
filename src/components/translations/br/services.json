@@ -1,4 +1,29 @@
 {
+	"text-section": [
+		{
+			"title": "Impulsione seu negócio com uma Landing Page profissional!",
+			"body-text": "Investindo",
+			"body-text1": "apenas USD$150",
+			"body-text2": "Landing Page espetacular",
+			"body-text3": "que inclui:",
+			"body-text4": "entregamos a você uma",
+			"home": "Página inicial:",
+			"home-body":"A primeira impressão conta, e faremos com que seja inesquecível.",
+			"contact": "Página de contato:",
+			"contact-body": "Facilite para seus clientes encontrarem e se comunicarem com você.",
+			"about-me": "Seção 'Quem somos?'",
+			"about-body": "Conte sua história e conecte-se com seu público.",
+			"galery": "Galeria de imagens:",
+			"galery-body": "Mostre seus produtos ou serviços da melhor maneira.",
+			"social-media": "Links para suas redes sociais:",
+			"media-body": "Integre todas as suas plataformas e aumente sua visibilidade.",
+			"extra" : "Também oferecemos uma gama completa de serviços web personalizados. ",
+			"link" : "Contate-nos",
+			"extra1": "hoje mesmo e obtenha um orçamento adaptado às suas necessidades!",
+			"extra2" : "Seu sucesso online começa aqui. Não perca a oportunidade de se destacar!",
+			"extra3": "Mas isso não é tudo!"
+		}
+	],	
 	"services": [
 	  {
 		"title": "Páginas de destino",
