@@ -1,11 +1,14 @@
 import React from 'react';
-import { LINKS } from '../../const/navbar';
 import Link from './NavLink';
+import { useTranslation } from 'react-i18next';
+
 const LinkList = () => {
+	const { t } = useTranslation('navlist');
+	const links = t('links', { returnObjects: true });
 	return (
 		<>
 			<ul className='flex justify-center'>
-				{LINKS.map(link => (
+				{links.map(link => (
 					<Link key={link.label} to={link.to}>
 						{link.label}
 					</Link>

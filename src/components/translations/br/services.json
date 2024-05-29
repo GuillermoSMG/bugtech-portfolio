@@ -1,0 +1,124 @@
+{
+	"text-section": [
+		{
+			"title": "Impulsione seu negócio com uma Landing Page profissional!",
+			"body-text": "Investindo",
+			"body-text1": "apenas USD$150",
+			"body-text2": "Landing Page espetacular",
+			"body-text3": "que inclui:",
+			"body-text4": "entregamos a você uma",
+			"home": "Página inicial:",
+			"home-body": "A primeira impressão conta, e faremos com que seja inesquecível.",
+			"contact": "Página de contato:",
+			"contact-body": "Facilite para seus clientes encontrarem e se comunicarem com você.",
+			"about-me": "Seção 'Quem somos?'",
+			"about-body": "Conte sua história e conecte-se com seu público.",
+			"galery": "Galeria de imagens:",
+			"galery-body": "Mostre seus produtos ou serviços da melhor maneira.",
+			"social-media": "Links para suas redes sociais:",
+			"media-body": "Integre todas as suas plataformas e aumente sua visibilidade.",
+			"extra": "Também oferecemos uma gama completa de serviços web personalizados. ",
+			"link": "Contate-nos",
+			"extra1": "hoje mesmo e obtenha um orçamento adaptado às suas necessidades!",
+			"extra2": "Seu sucesso online começa aqui. Não perca a oportunidade de se destacar!",
+			"extra3": "Mas isso não é tudo!"
+		}
+	],
+	"services": [
+		{
+			"title": "Páginas de destino",
+			"desc": "Essas páginas especializadas são projetadas para capturar a atenção do visitante e guiá-lo para uma ação específica, melhorando as taxas de conversão e a eficácia das campanhas de marketing.",
+			"icon": "LandingIcon"
+		},
+		{
+			"title": "Software sob demanda",
+			"desc": "Oferecemos soluções de software sob demanda para atender às suas necessidades específicas. Entendemos que cada negócio é único e pode exigir soluções de software personalizadas para otimizar suas operações e melhorar a eficiência.",
+			"icon": "DefaultIcon"
+		},
+		{
+			"title": "Portfólios profissionais",
+			"desc": "Na Bug’s Technology, nos especializamos no design de portfólios profissionais. Entendemos que um portfólio é mais do que apenas uma coleção de trabalhos, é a representação da sua identidade profissional e um reflexo da sua dedicação e experiência em seu campo.",
+			"icon": "PortfolioIcon"
+		},
+		{
+			"title": "Websites de Marketing",
+			"desc": "Websites de marketing otimizam a promoção de produtos e serviços, acelerando o alcance e fomentando uma conexão eficaz com o público-alvo.",
+			"icon": "AdIcon"
+		}
+	],
+	"values": [
+		{
+			"title": "Melhores Práticas",
+			"desc": "Criamos websites eficientes, seguros e fáceis de usar para uma experiência de qualidade.",
+			"icon": "CheckIcon"
+		},
+		{
+			"title": "Excelente Velocidade",
+			"desc": "Ter uma boa velocidade de página impacta no ranking de busca e melhora a experiência do usuário.",
+			"icon": "FastIcon"
+		}
+	],
+	"values_two": [
+		{
+			"title": "Otimização para Motores de Busca (SEO)",
+			"desc": "Altos padrões e preparado para se posicionar em buscadores como o Google.",
+			"icon": "SEOIcon"
+		},
+		{
+			"title": "Adaptado para Todos os Dispositivos",
+			"desc": "Designs adaptados para visualização em dispositivos móveis, desktops e tablets.",
+			"icon": "MobileIcon"
+		}
+	],
+	"advantages": [
+		{
+			"title": "Compatibilidade entre Navegadores",
+			"desc": "Garanta que seu website seja visualizado corretamente em diversos navegadores da web.",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "Alto Nível de Personalização",
+			"desc": "Adaptamos nosso produto para combinar com a identidade e os requisitos da sua marca.",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "Design Totalmente Adaptável",
+			"desc": "Garanta o desempenho ideal do seu website em vários dispositivos e tamanhos de tela.",
+			"icon": "GreenCheckIcon"
+		}
+	],
+	"advantages_two": [
+		{
+			"title": "Disponibilidade Completa do seu Website",
+			"desc": "Um website abre o seu negócio 24/7, 365 dias por ano, garantindo máxima disponibilidade para os seus clientes.",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "Suporte e Manutenção 24/7",
+			"desc": "Estaremos sempre atentos a quaisquer erros ou mudanças que você queira fazer.",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "Integração com Redes Sociais",
+			"desc": "Incorporaremos os seus perfis de redes sociais no website para que os seus clientes possam segui-lo.",
+			"icon": "GreenCheckIcon"
+		}
+	],
+	"characteristics": [
+		{
+			"title": "Características",
+			"desc": "Utilizamos as melhores tecnologias do mercado.",
+			"icon": "FlatCheckIcon"
+		},
+		{
+			"title": "Preço",
+			"desc": "Custos a partir de USD $150. Entre em contato conosco para obter um orçamento sem compromisso.",
+			"icon": "MoneyIcon"
+		},
+		{
+			"title": "Contato",
+			"desc": "Você pode nos enviar um e-mail para bugstechnologys@gmail.com ou nos enviar uma mensagem para +598 95729176.",
+			"icon": "ContactIcon"
+		}
+	]
+}
