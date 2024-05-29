@@ -1,20 +1,19 @@
 {
 	"home-title": [
-	  {
-		"text-title": "Creación de software altamente"
-	  },
-	  {
-		"text-title": " personalizado"
-	  }
+		{
+			"text-title": "Creación de software altamente"
+		},
+		{
+			"text-title": " personalizado"
+		}
 	],
 	"home-descrip": [
 		{
 			"descrip": "En"
 		},
-	  {
-		"descrip": ",  creamos software bajo demanda adecuado para startups, particulares y pequeñas empresas. Creamos ecommerce, landing pages, portfolios profesionales y sitios web de marketing."
-	  }
+		{
+			"descrip": ",  creamos software bajo demanda adecuado para startups, particulares y pequeñas empresas. Creamos ecommerce, landing pages, portfolios profesionales y sitios web de marketing."
+		}
 	],
 	"company-name": "Bugs Technologies "
-  }
-  
+}

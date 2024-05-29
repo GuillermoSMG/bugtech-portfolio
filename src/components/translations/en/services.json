@@ -8,7 +8,7 @@
 			"body-text3": "that includes:",
 			"body-text4": "we deliver you a",
 			"home": "Home Page:",
-			"home-body":"The first impression counts, and we will make it unforgettable.",
+			"home-body": "The first impression counts, and we will make it unforgettable.",
 			"contact": "Contact Page:",
 			"contact-body": "Make it easy for your customers to find and communicate with you.",
 			"about-me": "'Who are we?' Section",
@@ -17,109 +17,109 @@
 			"galery-body": "Showcase your products or services in the best way.",
 			"social-media": "Links to your social networks:",
 			"media-body": "Integrate all your platforms and increase your visibility.",
-			"extra" : "We also offer a full range of customized web services. ",
-			"link" : "Contact us",
+			"extra": "We also offer a full range of customized web services. ",
+			"link": "Contact us",
 			"extra1": "today and get a quote tailored to your needs!",
-			"extra2" : "Your online success starts here. Don't miss the opportunity to stand out!",
+			"extra2": "Your online success starts here. Don't miss the opportunity to stand out!",
 			"extra3": "But that's not all!"
 		}
 	],
-	
+
 	"services": [
-	  {
-		"title": "Landing pages",
-		"desc": "These specialized pages are designed to capture the visitor's attention and guide them towards a specific action, improving the conversion rate and the effectiveness of marketing campaigns.",
-		"icon": "LandingIcon"
-	  },
-	  {
-		"title": "Software on demand",
-		"desc": "We offer on-demand software solutions to meet your specific needs. We understand that every business is unique and may require customized software solutions to optimize their operations and improve efficiency.",
-		"icon": "DefaultIcon"
-	  },
-	  {
-		"title": "Professional portfolios",
-		"desc": "At Bug’s Technology, we specialize in the design of professional portfolios. We understand that a portfolio is more than just a collection of works, it is a representation of your professional identity and a reflection of your dedication and experience in your field.",
-		"icon": "PortfolioIcon"
-	  },
-	  {
-		"title": "Marketing websites",
-		"desc": "Marketing websites optimize the promotion of products and services, accelerating reach and cultivating an effective connection with the target audience.",
-		"icon": "AdIcon"
-	  }
+		{
+			"title": "Landing pages",
+			"desc": "These specialized pages are designed to capture the visitor's attention and guide them towards a specific action, improving the conversion rate and the effectiveness of marketing campaigns.",
+			"icon": "LandingIcon"
+		},
+		{
+			"title": "Software on demand",
+			"desc": "We offer on-demand software solutions to meet your specific needs. We understand that every business is unique and may require customized software solutions to optimize their operations and improve efficiency.",
+			"icon": "DefaultIcon"
+		},
+		{
+			"title": "Professional portfolios",
+			"desc": "At Bug’s Technology, we specialize in the design of professional portfolios. We understand that a portfolio is more than just a collection of works, it is a representation of your professional identity and a reflection of your dedication and experience in your field.",
+			"icon": "PortfolioIcon"
+		},
+		{
+			"title": "Marketing websites",
+			"desc": "Marketing websites optimize the promotion of products and services, accelerating reach and cultivating an effective connection with the target audience.",
+			"icon": "AdIcon"
+		}
 	],
 	"values": [
-	  {
-		"title": "Good practices",
-		"desc": "We create efficient, secure, and easy-to-use web pages for a quality experience.",
-		"icon": "CheckIcon"
-	  },
-	  {
-		"title": "Excellent speed",
-		"desc": "Having a good page speed impacts search ranking and improves user experience.",
-		"icon": "FastIcon"
-	  }
+		{
+			"title": "Good practices",
+			"desc": "We create efficient, secure, and easy-to-use web pages for a quality experience.",
+			"icon": "CheckIcon"
+		},
+		{
+			"title": "Excellent speed",
+			"desc": "Having a good page speed impacts search ranking and improves user experience.",
+			"icon": "FastIcon"
+		}
 	],
 	"values_two": [
-	  {
-		"title": "Search engine optimization (SEO)",
-		"desc": "High standards and prepared to position itself in search engines like Google.",
-		"icon": "SEOIcon"
-	  },
-	  {
-		"title": "Adapted for all devices",
-		"desc": "Designs adapted for Mobile, Desktop, and tablet view.",
-		"icon": "MobileIcon"
-	  }
+		{
+			"title": "Search engine optimization (SEO)",
+			"desc": "High standards and prepared to position itself in search engines like Google.",
+			"icon": "SEOIcon"
+		},
+		{
+			"title": "Adapted for all devices",
+			"desc": "Designs adapted for Mobile, Desktop, and tablet view.",
+			"icon": "MobileIcon"
+		}
 	],
 	"advantages": [
-	  {
-		"title": "Browser compatibility",
-		"desc": "Make sure your website looks good and works correctly on various web browsers",
-		"icon": "GreenCheckIcon"
-	  },
-	  {
-		"title": "High level of customization",
-		"desc": "We adapt our product to match your brand's identity and requirements",
-		"icon": "GreenCheckIcon"
-	  },
-	  {
-		"title": "Fully adaptable design",
-		"desc": "Ensures optimal performance of your website on various devices and screen sizes",
-		"icon": "GreenCheckIcon"
-	  }
+		{
+			"title": "Browser compatibility",
+			"desc": "Make sure your website looks good and works correctly on various web browsers",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "High level of customization",
+			"desc": "We adapt our product to match your brand's identity and requirements",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "Fully adaptable design",
+			"desc": "Ensures optimal performance of your website on various devices and screen sizes",
+			"icon": "GreenCheckIcon"
+		}
 	],
 	"advantages_two": [
-	  {
-		"title": "Complete availability of your website",
-		"desc": "A website opens your business 24/7, 365 days a year, thus having maximum availability for your customers",
-		"icon": "GreenCheckIcon"
-	  },
-	  {
-		"title": "24/7 support and maintenance",
-		"desc": "We will always be attentive to any error or change you want to make",
-		"icon": "GreenCheckIcon"
-	  },
-	  {
-		"title": "Visualization on social networks",
-		"desc": "We will put your social media profiles on the web so that your customers can follow you",
-		"icon": "GreenCheckIcon"
-	  }
+		{
+			"title": "Complete availability of your website",
+			"desc": "A website opens your business 24/7, 365 days a year, thus having maximum availability for your customers",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "24/7 support and maintenance",
+			"desc": "We will always be attentive to any error or change you want to make",
+			"icon": "GreenCheckIcon"
+		},
+		{
+			"title": "Visualization on social networks",
+			"desc": "We will put your social media profiles on the web so that your customers can follow you",
+			"icon": "GreenCheckIcon"
+		}
 	],
 	"characteristics": [
-	  {
-		"title": "Characteristics",
-		"desc": "We use the best technologies on the market",
-		"icon": "FlatCheckIcon"
-	  },
-	  {
-		"title": "Price",
-		"desc": "Costs starting from USD$150. Contact us to make a no-obligation quote.",
-		"icon": "MoneyIcon"
-	  },
-	  {
-		"title": "Contact",
-		"desc": "You can send us an email at bugstechnologys@gmail.com or send us a message at +598 95729176",
-		"icon": "ContactIcon"
-	  }
+		{
+			"title": "Characteristics",
+			"desc": "We use the best technologies on the market",
+			"icon": "FlatCheckIcon"
+		},
+		{
+			"title": "Price",
+			"desc": "Costs starting from USD$150. Contact us to make a no-obligation quote.",
+			"icon": "MoneyIcon"
+		},
+		{
+			"title": "Contact",
+			"desc": "You can send us an email at bugstechnologys@gmail.com or send us a message at +598 95729176",
+			"icon": "ContactIcon"
+		}
 	]
 }

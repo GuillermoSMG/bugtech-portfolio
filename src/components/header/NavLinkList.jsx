@@ -6,17 +6,16 @@ const LinkList = () => {
 	const { t } = useTranslation('navlist');
 	const links = t('links', { returnObjects: true });
 	return (
-	  <>
-		<ul className='flex justify-center'>
-		  {links.map((link) => (
-			<Link key={link.label} to={link.to}>
-			  {link.label}
-			</Link>
-		  ))}
-		</ul>
-	  </>
+		<>
+			<ul className='flex justify-center'>
+				{links.map(link => (
+					<Link key={link.label} to={link.to}>
+						{link.label}
+					</Link>
+				))}
+			</ul>
+		</>
 	);
-  };
-  
+};
 
 export default LinkList;

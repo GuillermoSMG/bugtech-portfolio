@@ -31,47 +31,45 @@ import navlist_es from './components/translations/es/navlist.json';
 import navlist_en from './components/translations/en/navlist.json';
 import navlist_br from './components/translations/br/navlist.json';
 
-i18next
-  .use(initReactI18next) 
-  .init({
-    interpolation: { escapeValue: false }, // React ya escapa por defecto
-    lng: 'es', // Idioma por defecto
-    fallbackLng: 'es', 
-    resources: {
-      es: {
-        navlist: navlist_es,
-        header: header_es,
-        banner: banner_es,
-        home: home_es,
-        contact: contact_es,
-        team: team_es,
-        services: services_es,
-      },
-      en: {
-        navlist: navlist_en,
-        header: header_en,
-        banner: banner_en,
-        home: home_en,
-        contact: contact_en,
-        team: team_en,
-        services: services_en,
-      },
-      br: {
-        navlist: navlist_br,
-        header: header_br,
-        banner: banner_br,
-        home: home_br,
-        contact: contact_br,
-        team: team_br,
-        services: services_br,
-      },
-    },
-  });
+i18next.use(initReactI18next).init({
+	interpolation: { escapeValue: false }, // React ya escapa por defecto
+	lng: 'es', // Idioma por defecto
+	fallbackLng: 'es',
+	resources: {
+		es: {
+			navlist: navlist_es,
+			header: header_es,
+			banner: banner_es,
+			home: home_es,
+			contact: contact_es,
+			team: team_es,
+			services: services_es,
+		},
+		en: {
+			navlist: navlist_en,
+			header: header_en,
+			banner: banner_en,
+			home: home_en,
+			contact: contact_en,
+			team: team_en,
+			services: services_en,
+		},
+		br: {
+			navlist: navlist_br,
+			header: header_br,
+			banner: banner_br,
+			home: home_br,
+			contact: contact_br,
+			team: team_br,
+			services: services_br,
+		},
+	},
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <I18nextProvider i18n={i18next}>
-      <App />
-    </I18nextProvider>
-  </React.StrictMode>
+	<React.StrictMode>
+		<I18nextProvider i18n={i18next}>
+			<App />
+		</I18nextProvider>
+	</React.StrictMode>
 );

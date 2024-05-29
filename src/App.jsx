@@ -7,10 +7,8 @@ import { Services } from './pages/services/Services';
 import Navbar from './components/header/Navbar';
 import { Team } from './pages/team/Team';
 import { Contact } from './pages/contact/Contact';
-import { useTranslation } from 'react-i18next';
 
 function App() {
-	const [t, i18n] = useTranslation('services');
 	return (
 		<>
 			<Suspense fallback={<>Loading...</>}>
@@ -28,10 +26,6 @@ function App() {
 					</main>
 				</ThemeContextConteiner>
 			</Suspense>
-			<h1>{t('services.0.title')}</h1>
-			<button onClick={() => i18n.changeLanguage('es')}>es</button>
-			<button onClick={() => i18n.changeLanguage('en')}>ennn</button>
-			<button onClick={() => i18n.changeLanguage('br')}>br</button>
 		</>
 	);
 }

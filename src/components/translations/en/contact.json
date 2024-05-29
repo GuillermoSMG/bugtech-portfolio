@@ -1,24 +1,21 @@
 {
 	"contact": [
-	  {
-		"title": "Phone",
-		"desc": "+598 95 729 176",
-		"icon": "PhoneIcon"
-	  },
-	  {
-		"title": "Email",
-		"desc": "bugstechnologys@gmail.com",
-		"icon": "EmailIcon"
-	  },
-	  {
-		"title": "Instagram",
-		"desc": "bugstechnologies",
-		"icon": "InstagramIcon"
-	  }
+		{
+			"title": "Phone",
+			"desc": "+598 95 729 176",
+			"icon": "PhoneIcon"
+		},
+		{
+			"title": "Email",
+			"desc": "bugstechnologys@gmail.com",
+			"icon": "EmailIcon"
+		},
+		{
+			"title": "Instagram",
+			"desc": "bugstechnologies",
+			"icon": "InstagramIcon"
+		}
 	],
-		"title": "Contact Us!",
-		"slogan": "We are here to help you"
+	"title": "Contact Us!",
+	"slogan": "We are here to help you"
 }
-	  
-  
-  
