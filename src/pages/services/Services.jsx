@@ -1,16 +1,18 @@
+/* eslint-disable camelcase */
+import { useTranslation } from 'react-i18next';
 import { Advantages } from './components/Advantages';
 import { Service } from './components/ServiceContainer';
 import { Values } from './components/Values';
-import {
-	ADVANTAGES,
-	ADVANTAGES_TWO,
-	CHARACTERISTICS,
-	SERVICES,
-	VALUES,
-	VALUES_TWO,
-} from './const/services';
 
 export const Services = () => {
+const [t] = useTranslation("services")
+
+	const services = t("services", { returnObjects: true })
+	const values = t("values", { returnObjects: true })
+	const valuestwo = t("values_two", { returnObjects: true })
+	const advantages = t("advantages", { returnObjects: true })
+	const advantagestwo = t("advantages_two", { returnObjects: true })
+	const characteristics = t("characteristics", { returnObjects: true })
 	return (
 		<section>
 			<div className='pt-16 flex justify-center flex-col items-center text-left m-auto px-4 md:pl-0 '>
@@ -63,16 +65,16 @@ export const Services = () => {
 				</p>
 			</div>
 
-			<Service services={SERVICES} />
-			<Values values={VALUES} />
-			<Values values={VALUES_TWO} />
+			<Service services={services} />
+			<Values values={values} />
+			<Values values={valuestwo} />
 			<Advantages
 				order='md:order-last'
-				advanteges={ADVANTAGES}
+				advanteges={advantages}
 				isFirst={true}
 			/>
-			<Advantages advanteges={ADVANTAGES_TWO} />
-			<Service services={CHARACTERISTICS} />
+			<Advantages advanteges={advantagestwo} />
+			<Service services={characteristics} />
 		</section>
 	);
 };

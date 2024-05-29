@@ -10,7 +10,7 @@ import { Contact } from './pages/contact/Contact';
 import { useTranslation } from 'react-i18next';
 
 function App() {
-	const [t, i18n] = useTranslation('navlist');
+	const [t, i18n] = useTranslation('services');
 	return (
 		<>
 			<Suspense fallback={<>Loading...</>}>
@@ -28,9 +28,9 @@ function App() {
 					</main>
 				</ThemeContextConteiner>
 			</Suspense>
-			<h1>{t('links.0.label')}</h1>
+			<h1>{t('services.0.title')}</h1>
 			<button onClick={() => i18n.changeLanguage('es')}>es</button>
-			<button onClick={() => i18n.changeLanguage('en')}>en</button>
+			<button onClick={() => i18n.changeLanguage('en')}>ennn</button>
 			<button onClick={() => i18n.changeLanguage('br')}>br</button>
 		</>
 	);

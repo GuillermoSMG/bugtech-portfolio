@@ -1,8 +1,11 @@
 import React from 'react';
-import { TEAM } from './const/DataMembers';
+
 import { MembersCard } from './components/MembersCard';
+import { useTranslation } from 'react-i18next';
 
 export const Team = () => {
+	const [t] = useTranslation("team")
+	const team = t("TEAM", {returnObjects: true})
 	return (
 		<section
 			className='text-center px-4 pt-24 pb-12 md:px-6 dark:bg-darkBg '
@@ -12,7 +15,7 @@ export const Team = () => {
 				¡Nuestro equipo!
 			</h2>
 			<div className='md:flex md:justify-center'>
-				{TEAM.map((member, i) => (
+				{team.map((member, i) => (
 					<MembersCard
 						key={i}
 						title={member.title}
