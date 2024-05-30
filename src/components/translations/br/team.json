@@ -1,17 +1,17 @@
 {
-	"text":"Nossa equipe!",
+	"text": "Nossa equipe!",
 	"TEAM": [
 		{
 			"title": "GUILLERMO",
-			"desc": "Desenvolvedor front-end apaixonado por criar sites atraentes e fáceis de usar. Eu gosto de aperfeiçoar continuamente minhas habilidades e estou comprometido em trazer um valor significativo para cada projeto que realizo.",
+			"desc": "Desenvolvedor",
 			"img": "https://media.licdn.com/dms/image/D4D03AQFdNugvSHWELQ/profile-displayphoto-shrink_200_200/0/1670505221754?e=1722470400&v=beta&t=5U9kvqX2oALBZviNdywNDVqvk6J328vQEyppgegkmh0",
 			"linkedin": "https://www.linkedin.com/in/guillermosanmartin-developer/",
 			"whatsapp": "https://wa.me/+59898571613"
 		},
 		{
 			"title": "HUGO",
-			"desc": "Desenvolvedor front-end apaixonado por criar sites atraentes e fáceis de usar. Eu gosto de aperfeiçoar continuamente minhas habilidades e estou comprometido em trazer um valor significativo para cada projeto que realizo.",
-			"img": "https://media.licdn.com/dms/image/D4D35AQHdyn4M_oJJZA/profile-framedphoto-shrink_200_200/0/1711070932397?e=1717452000&v=beta&t=4clTxV6EGXphimswF-38asOmThJIcZBrPR6vmoaqjjU",
+			"desc": "Desenvolvedor",
+			"img": "https://media.licdn.com/dms/image/D4E03AQHixSdGLqEJNA/profile-displayphoto-shrink_200_200/0/1717096515688?e=1722470400&v=beta&t=8XzyTHGop6NTc3cYxn7BwNY7xTGml9mYhXjYgxSc86o",
 			"linkedin": "https://www.linkedin.com/in/hugo-desiderio/",
 			"whatsapp": "https://wa.me/+59891226128"
 		}
