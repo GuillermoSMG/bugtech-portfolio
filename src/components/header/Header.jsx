@@ -9,28 +9,21 @@ const Header = () => {
 		<header className='flex px-6 py-4 items-center justify-between bg-white dark:text-mainText font-sans fixed mx-auto top-0 w-full z-10 border-b dark:border-gray-700 dark:bg-headerBg backdrop-blur-md'>
 			<div className='w-[80%] flex mx-auto justify-between items-center'>
 				<HeaderTitle>BUGS TECHS</HeaderTitle>
-				<Navbar styles='hidden md:flex' />
-				<div className='flex space-x-2'>
-					<button
-						onClick={() => i18n.changeLanguage('es')}
-						className='px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-300'
-					>
-						es
-					</button>
-					<button
-						onClick={() => i18n.changeLanguage('en')}
-						className='px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors duration-300'
-					>
-						en
-					</button>
-					<button
-						onClick={() => i18n.changeLanguage('br')}
-						className='px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition-colors duration-300'
-					>
-						br
-					</button>
+				<div className='md:w-[35rem] flex items-end justify-end'>
+					<Navbar styles='hidden md:flex' />
 				</div>
+
 				<ToggleThemeBtn />
+				<div>
+					<select
+						className='appearance-none bg-slate-100 dark:bg-[#030620e6] text-black dark:text-white py-2 px-4 border border-gray-950 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-300 rounded-3xl cursor-pointer'
+						onChange={e => i18n.changeLanguage(e.target.value)}
+					>
+						<option value='es'>ES</option>
+						<option value='en'>EN</option>
+						<option value='br'>BR</option>
+					</select>
+				</div>
 			</div>
 		</header>
 	);
